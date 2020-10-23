@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pikadu</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-wrapper">
+            <a href="/" class="header-logo">
+                <img src="img/logo.svg" alt="Pikadu">
+            </a>
+
+            <div class="header-nav">
+                <ul class="header-menu">
+                    <li class="header-menu__item"><a href="#">Свежее</a></li>
+                    <li class="header-menu__item"><a href="#">Лучшее</a></li>
+                    <li class="header-menu__item"><a href="#">Горячее</a></li>
+                    <li class="header-menu__item"><a href="#">Подписки</a></li>
+                </ul>
+            </div>
+            <div class="input-group search">
+                <input type="search" class="search-input" placeholder="Поиск по сайту">
+                <button class="search-button">
+                    <img src="img/search.svg" alt="Поиск">
+                </button>
+            </div>
+                <a href="#" class="menu-toggle" id="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+
+        </div>
+    </header>
+    <div class="content">
+        <main class="posts">
+            <section class="post">
+                <div class="post-body">
+                    <h2 class="post-title">Плохой механизм реализации</h2>
+                    <p class="post-text">Как-то я смотрел телевизионное ток-шоу, в котором одна из участниц,
+                        правозащитница,
+                        говорила о том, что необходимо всем бездомным животным вживлять электронные
+                        чипы. Говорила она уверенно и убедительно и аргументы приводила весомые, с большим
+                        количеством поддержек, примеров, эмоциональных картинок. Философии убеждения,
+                        которые она выбрала, били прямо в точку: здоровье населения, проявление милосердия,
+                        безопасность детей. Четко, структурно, с яркой интонацией и демаркированием — просто
+                        иллюстрация техники, изложенной в этой книге.
+                        В качестве ее оппонента выступал один депутат. Откровенно говоря, не все наши
+                        депутаты отличаются высоким уровнем ораторского искусства и полемики, но этот был
+                        приятным исключением. Выслушав ее, он решил бить прямо по тезису: «Я вот вас слушаю
+                        и поражаюсь! Нам что говорить больше не о чем? У нас пенсионеры стоят с протянутой
+                        рукой! У нас образование реформировать надо! У нас куча других проблем, а вы нам тут
+                        про кошек и собак!»</p>
+                    <p class="post-text"> Заметьте, удар действительно направлен на тезис, и происходит откровенная его
+                        подмена. Он не касается ни аргументов, ни нижнего, ни верхнего уровней. Бьет прямо по
+                        тезису.
+                        Реакция нашей героини была абсолютно правильная. Она не растерялась, быстро
+                        сообразила, что идет подмена темы обсуждения и вернула его в исходное русло: «Все
+                        правильно, безусловно. Но все дело в том, что сегодня мы обсуждаем ни пенсионную
+                        реформу, ни проблемы образования. Сегодняшняя тема — бездомные животные. И если
+                        вы не хотите обсуждать именно эту тему, приходите на другую передачу. А эфирное
+                        время этой программы я займу своим монологом. Можете вы сказать что-нибудь по
+                        существу?» То есть она попросту вернула его к исходному тезису обсуждения.</p>
+
+                    <div class="tags">
+                        <span class="tag">#свежее</span>
+                        <span class="tag">#горячее</span>
+                        <span class="tag">#мое</span>
+                        <span class="tag">#случайность</span>
+                    </div>
+                </div>
+                <div class="post-footer">
+                    <div class="post-buttons">
+                        <button class="post-button likes">
+                            <img src="img/ico-like.svg" alt="Нравится">
+                            <span class="likes-counter">26</span>
+                        </button>
+                        <button class="post-button comments">
+                            <img src="img/ico-comments.svg" alt="Прокомментировать">
+                            <span class="comments-counter">
+                                157</span>
+                        </button>
+                        <button class="post-button save">
+                            <img src="img/save.svg" alt="Сохранить">
+                        </button>
+                        <button class="post-button share">
+                            <img src="img/ico-share.svg" alt="Поделиться">
+                        </button>
+                    </div>
+                    <div class="post-autor">
+                        <div class="autor-about">
+                            <a href="#" class="autor-name">maxpechkin</a>
+                            <span class="post-time">5 минут назад</span>
+                        </div>
+                        <a href="#" class="autor-avatar">
+                            <img src="img/autor-1.jpg" alt="Автор">
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="post">
+                <div class="post-body">
+                    <h2 class="post-title">Странная продажа</h2>
+                    <p class="post-text">Хочу рассказать вам одну обычную историю. Как-то давным-давно мне понадобился
+                        сотовый телефон. Деньги в кармане есть, цель купить есть.</p>
+                    <p class="post-text">Захожу в магазин, подхожу к
+                        витрине и выбираю два телефона, которые мне приглянулись и подошли по цене. В силу
+                        недостатка технических знаний я обращаюсь к продавцу с простым вопросом: «Скажите,
+                        какой из этих двух телефонов вы мне порекомендуете?» На что продавец, посмотрев на
+                        меня холодным взглядом, тычет пальцем в одну из моделей и нехотя бросает: «Ну,
+                        конечно же, вот этот». С точки зрения аргументации в нашей коммуникации уже появился
+                        тезис — положение, нуждающееся в доказательстве. Тезис можно сформулировать так:
+                        «Купите именно этот телефон» или «Этот телефон лучше». Но аргументации пока нет, ибо
+                        не хватает самого главного — аргументов. Поэтому я резонно спрашиваю: «А почему?» И
+                        в ответ слышу: «Ну как почему? Потому что это новая модель, многофункциональная и
+                        стильная». Именно эти три аргумента я услышал в поддержку тезиса продавца.</p>
+                    <p class="post-text">Как вы думаете, купила я телефон?</p>
+                    <div class="tags">
+                        <a href="#" class="tag">#свежее</a>
+                        <a href="#" class="tag">#горячее</a>
+                        <a href="#" class="tag">#мое</a>
+                        <a href="#" class="tag">#случайность</a>
+                    </div>
+                </div>
+                <div class="post-footer">
+                    <div class="post-buttons">
+                        <button class="post-button likes">
+                            <img src="img/ico-like.svg" alt="Нравится">
+                            <span class="likes-counter">40</span>
+                        </button>
+                        <button class="post-button comments">
+                            <img src="img/ico-comments.svg" alt="Прокомментировать">
+                            <span class="comments-counter">
+                                203</span>
+                        </button>
+                        <button class="post-button save">
+                            <img src="img/ico-save.svg" alt="Сохранить">
+                        </button>
+                        <button class="post-button share">
+                            <img src="img/ico-share.svg" alt="Поделиться">
+                        </button>
+                    </div>
+                    <div class="post-autor">
+                        <div class="autor-about">
+                            <a href="#" class="autor-name">annfox</a>
+                            <span class="post-time">23 минуты назад</span>
+                        </div>
+                        <a href="#" class="autor-avatar">
+                            <img src="img/autor-2.jpg" alt="Автор">
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <acide class="sidebar">
+            <div class="user">
+                <a href="#" class="user-info">
+                    <img src="img/autor-3.jpg" alt="Блонди" class="user-avatar">
+                    <span class="user-name">blondy</span>
+                </a>
+                <a href="#" class="exit">
+                    <img src="img/ico-poweroff.svg" alt="Выйти">
+                </a>
+            </div>
+            <nav class="sidebar-nav">
+                <ul class="sidebar-menu">
+                    <li class="sidebar-menu__item"><a href="#" class="sidebar-menu__link">Ответы</a></li>
+                    <li class="sidebar-menu__item"><a href="#" class="sidebar-menu__link">Комментарии</a></li>
+                    <li class="sidebar-menu__item"><a href="#" class="sidebar-menu__link active">Оценки</a></li>
+                    <li class="sidebar-menu__item"><a href="#" class="sidebar-menu__link">Сохраненное</a></li>
+                    <li class="sidebar-menu__item"><a href="#" class="sidebar-menu__link">Подписки</a></li>
+                    <li class="sidebar-menu__item"><a href="#" class="sidebar-menu__link">Заметки</a></li>
+                    <li class="sidebar-menu__item"><a href="#" class="sidebar-menu__link">Игнор-лист</a></li>
+                </ul>
+            </nav>
+            <a href="new-post.html" class="btn btn-new-post">
+                <img src="img/ico-fire.svg" alt="Опубликовать пост">
+                <span>Опубликовать пост</span>
+            </a>
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-header__title">Комментарий дня</h2>
+                </div>
+                <div class="card-body">
+                    <h3 class="card-body__title">Корзина в моей голове</h3>
+                    <div class="card-body__text">
+                        Вся полученная информация оценивается, анализируется и, главное,
+                        интерпретируется. Мозг задает две модальности: позитивную и негативную. Но самое
+                        интересное происходит дальше, ведь после этого наш мозг направляет информацию либо
+                        в так называемую «корзину», либо в центр принятия решений.
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="promo">
+            </a>
+        </acide>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
